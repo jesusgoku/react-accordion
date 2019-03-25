@@ -1,0 +1,26 @@
+{
+  "name": "accordion",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.5.0",
+    "enzyme": "^3.9.0",
+    "jest": "^24.5.0",
+    "react-test-renderer": "^16.8.4"
+  },
+  "peerDependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "prop-types": "^15.7.2"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
